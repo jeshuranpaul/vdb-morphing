@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "59FFD954D0087B92145AC62617B77492712F66A0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "59FFD954D0087B92145AC62617B77492712F66A0" : 0,
+    "E34778DB5BA8D06ACDFDDF7A420D790DCEF25638" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "867D50CF-D310-4D04-B4EA-E291B7B2CC3E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "59FFD954D0087B92145AC62617B77492712F66A0" : "vdb-morphing\/",
+    "E34778DB5BA8D06ACDFDDF7A420D790DCEF25638" : "PFIAir\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "vdb-morph",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "vdb-morph.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jeshuranpaul\/vdb-morphing.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "59FFD954D0087B92145AC62617B77492712F66A0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mudkipmaster\/PFIAir.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E34778DB5BA8D06ACDFDDF7A420D790DCEF25638"
+    }
+  ]
+}
