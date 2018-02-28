@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48D11D652047245C00722EEB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48D11D612047245C00722EEB /* main.cpp */; };
-		48D11D6A2047248600722EEB /* Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48D11D662047248600722EEB /* Algorithm.cpp */; };
-		48D11D6B2047248600722EEB /* Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48D11D682047248600722EEB /* Container.cpp */; };
 		48D11D6D2047252D00722EEB /* libopenvdb.4.0.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D11D6C2047252D00722EEB /* libopenvdb.4.0.2.dylib */; };
 		48D11D702047254400722EEB /* libtbb.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D11D6E2047254400722EEB /* libtbb.dylib */; };
 		48D11D712047254400722EEB /* libtbbmalloc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D11D6F2047254400722EEB /* libtbbmalloc.dylib */; };
 		48D11D732047255800722EEB /* libHalf.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D11D722047255800722EEB /* libHalf.12.dylib */; };
+		48D11DA12047305300722EEB /* Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48D11D982047305300722EEB /* Algorithm.cpp */; };
+		48D11DA22047305300722EEB /* Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48D11D9B2047305300722EEB /* Container.cpp */; };
+		48D11DA32047305300722EEB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48D11D9E2047305300722EEB /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,19 +30,19 @@
 
 /* Begin PBXFileReference section */
 		48D11D4E2047234B00722EEB /* vdb-morph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "vdb-morph"; sourceTree = BUILT_PRODUCTS_DIR; };
-		48D11D5F2047245C00722EEB /* CommonOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonOperations.h; path = ../../../Projects/MorphingUsingLevelSets/MorphingUsingLevelSets/CommonOperations.h; sourceTree = "<group>"; };
-		48D11D602047245C00722EEB /* GridOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GridOperations.h; path = ../../../Projects/MorphingUsingLevelSets/MorphingUsingLevelSets/GridOperations.h; sourceTree = "<group>"; };
-		48D11D612047245C00722EEB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../Projects/MorphingUsingLevelSets/MorphingUsingLevelSets/main.cpp; sourceTree = "<group>"; };
-		48D11D622047245C00722EEB /* MeshOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeshOperations.h; path = ../../../Projects/MorphingUsingLevelSets/MorphingUsingLevelSets/MeshOperations.h; sourceTree = "<group>"; };
-		48D11D632047245C00722EEB /* MorphOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MorphOperations.h; path = ../../../Projects/MorphingUsingLevelSets/MorphingUsingLevelSets/MorphOperations.h; sourceTree = "<group>"; };
-		48D11D662047248600722EEB /* Algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Algorithm.cpp; path = "../../PFIAir/PFI_openVDBTools/C++ port/vdbTest/vdbTest/Algorithm.cpp"; sourceTree = "<group>"; };
-		48D11D672047248600722EEB /* Algorithm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Algorithm.hpp; path = "../../PFIAir/PFI_openVDBTools/C++ port/vdbTest/vdbTest/Algorithm.hpp"; sourceTree = "<group>"; };
-		48D11D682047248600722EEB /* Container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Container.cpp; path = "../../PFIAir/PFI_openVDBTools/C++ port/vdbTest/vdbTest/Container.cpp"; sourceTree = "<group>"; };
-		48D11D692047248600722EEB /* Container.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Container.hpp; path = "../../PFIAir/PFI_openVDBTools/C++ port/vdbTest/vdbTest/Container.hpp"; sourceTree = "<group>"; };
 		48D11D6C2047252D00722EEB /* libopenvdb.4.0.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopenvdb.4.0.2.dylib; path = ../../../../../usr/local/lib/libopenvdb.4.0.2.dylib; sourceTree = "<group>"; };
 		48D11D6E2047254400722EEB /* libtbb.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbb.dylib; path = ../../../../../usr/local/Cellar/tbb/2017_U7/lib/libtbb.dylib; sourceTree = "<group>"; };
 		48D11D6F2047254400722EEB /* libtbbmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbbmalloc.dylib; path = ../../../../../usr/local/Cellar/tbb/2017_U7/lib/libtbbmalloc.dylib; sourceTree = "<group>"; };
 		48D11D722047255800722EEB /* libHalf.12.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libHalf.12.dylib; path = ../../../../../usr/local/Cellar/ilmbase/2.2.0/lib/libHalf.12.dylib; sourceTree = "<group>"; };
+		48D11D982047305300722EEB /* Algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Algorithm.cpp; sourceTree = "<group>"; };
+		48D11D992047305300722EEB /* Algorithm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Algorithm.hpp; sourceTree = "<group>"; };
+		48D11D9A2047305300722EEB /* CommonOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonOperations.h; sourceTree = "<group>"; };
+		48D11D9B2047305300722EEB /* Container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Container.cpp; sourceTree = "<group>"; };
+		48D11D9C2047305300722EEB /* Container.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Container.hpp; sourceTree = "<group>"; };
+		48D11D9D2047305300722EEB /* GridOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridOperations.h; sourceTree = "<group>"; };
+		48D11D9E2047305300722EEB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		48D11D9F2047305300722EEB /* MeshOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshOperations.h; sourceTree = "<group>"; };
+		48D11DA02047305300722EEB /* MorphOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorphOperations.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,15 +83,15 @@
 		48D11D502047234B00722EEB /* vdb-morph */ = {
 			isa = PBXGroup;
 			children = (
-				48D11D662047248600722EEB /* Algorithm.cpp */,
-				48D11D672047248600722EEB /* Algorithm.hpp */,
-				48D11D682047248600722EEB /* Container.cpp */,
-				48D11D692047248600722EEB /* Container.hpp */,
-				48D11D5F2047245C00722EEB /* CommonOperations.h */,
-				48D11D602047245C00722EEB /* GridOperations.h */,
-				48D11D612047245C00722EEB /* main.cpp */,
-				48D11D622047245C00722EEB /* MeshOperations.h */,
-				48D11D632047245C00722EEB /* MorphOperations.h */,
+				48D11D982047305300722EEB /* Algorithm.cpp */,
+				48D11D992047305300722EEB /* Algorithm.hpp */,
+				48D11D9A2047305300722EEB /* CommonOperations.h */,
+				48D11D9B2047305300722EEB /* Container.cpp */,
+				48D11D9C2047305300722EEB /* Container.hpp */,
+				48D11D9D2047305300722EEB /* GridOperations.h */,
+				48D11D9E2047305300722EEB /* main.cpp */,
+				48D11D9F2047305300722EEB /* MeshOperations.h */,
+				48D11DA02047305300722EEB /* MorphOperations.h */,
 			);
 			path = "vdb-morph";
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48D11D6B2047248600722EEB /* Container.cpp in Sources */,
-				48D11D652047245C00722EEB /* main.cpp in Sources */,
-				48D11D6A2047248600722EEB /* Algorithm.cpp in Sources */,
+				48D11DA12047305300722EEB /* Algorithm.cpp in Sources */,
+				48D11DA22047305300722EEB /* Container.cpp in Sources */,
+				48D11DA32047305300722EEB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +293,7 @@
 				48D11D572047234B00722EEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

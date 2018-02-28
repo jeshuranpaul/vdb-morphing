@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/jpt54/Documents/Projects/MorphingUsingLevelSets/MorphingUsingLevelSets/main.cpp \
+  /Users/jpt54/Documents/Repo/git-vdb-morph/vdb-morph/main.cpp \
   /usr/local/include/openvdb/openvdb.h \
   /usr/local/include/openvdb/Platform.h \
   /usr/local/include/openvdb/PlatformConfig.h \
@@ -630,7 +630,7 @@ dependencies: \
   /usr/local/include/boost/uuid/detail/config.hpp \
   /usr/local/include/boost/uuid/detail/uuid_x86.hpp \
   /usr/local/include/openvdb/io/GridDescriptor.h \
-  /Users/jpt54/Documents/Projects/MorphingUsingLevelSets/MorphingUsingLevelSets/MorphOperations.h \
+  /Users/jpt54/Documents/Repo/git-vdb-morph/vdb-morph/MorphOperations.h \
   /usr/local/include/openvdb/tools/LevelSetMorph.h \
   /usr/local/include/openvdb/tools/LevelSetTracker.h \
   /usr/local/include/boost/bind.hpp \
@@ -891,7 +891,7 @@ dependencies: \
   /usr/local/include/boost/math/policies/error_handling.hpp \
   /usr/local/include/tbb/parallel_sort.h \
   /usr/local/include/tbb/internal/_range_iterator.h \
-  /Users/jpt54/Documents/Projects/MorphingUsingLevelSets/MorphingUsingLevelSets/CommonOperations.h \
+  /Users/jpt54/Documents/Repo/git-vdb-morph/vdb-morph/CommonOperations.h \
   /usr/local/include/openvdb/tools/LevelSetSphere.h \
   /usr/local/include/openvdb/tools/SignedFloodFill.h \
   /usr/local/include/openvdb/tools/LevelSetPlatonic.h \
@@ -899,7 +899,7 @@ dependencies: \
   /usr/local/include/openvdb/math/Proximity.h \
   /usr/local/include/openvdb/util/Util.h \
   /usr/local/include/tbb/task_group.h \
-  /Users/jpt54/Documents/Projects/MorphingUsingLevelSets/MorphingUsingLevelSets/GridOperations.h \
+  /Users/jpt54/Documents/Repo/git-vdb-morph/vdb-morph/GridOperations.h \
   /usr/local/include/eigen3/Eigen/Dense \
   /usr/local/include/eigen3/Eigen/Core \
   /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
@@ -1069,6 +1069,6 @@ dependencies: \
   /usr/local/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
   /usr/local/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
   /usr/local/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
-  /Users/jpt54/Documents/Projects/MorphingUsingLevelSets/MorphingUsingLevelSets/MeshOperations.h \
-  /Users/jpt54/Documents/Repo/PFIAir/PFI_openVDBTools/C++\ port/vdbTest/vdbTest/Container.hpp \
+  /Users/jpt54/Documents/Repo/git-vdb-morph/vdb-morph/MeshOperations.h \
+  /Users/jpt54/Documents/Repo/git-vdb-morph/vdb-morph/Container.hpp \
   /usr/local/include/openvdb/tools/VolumeToMesh.h

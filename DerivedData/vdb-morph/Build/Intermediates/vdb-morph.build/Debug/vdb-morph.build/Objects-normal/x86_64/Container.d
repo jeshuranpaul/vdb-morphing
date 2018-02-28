@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/jpt54/Documents/Repo/PFIAir/PFI_openVDBTools/C++\ port/vdbTest/vdbTest/Container.cpp \
-  /Users/jpt54/Documents/Repo/PFIAir/PFI_openVDBTools/C++\ port/vdbTest/vdbTest/Container.hpp \
+  /Users/jpt54/Documents/Repo/git-vdb-morph/vdb-morph/Container.cpp \
+  /Users/jpt54/Documents/Repo/git-vdb-morph/vdb-morph/Container.hpp \
   /usr/local/include/openvdb/openvdb.h \
   /usr/local/include/openvdb/Platform.h \
   /usr/local/include/openvdb/PlatformConfig.h \
